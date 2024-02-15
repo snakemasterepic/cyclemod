@@ -1,0 +1,14 @@
+{
+  "block": "minecraft:diorite",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 25
+    }, {
+      "yLevel": 319,
+      "weight": 25
+    }
+  ]
+}

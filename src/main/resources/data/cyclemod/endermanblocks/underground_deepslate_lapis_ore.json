@@ -1,0 +1,17 @@
+{
+  "block": "minecraft:deepslate_lapis_ore",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 0.5
+    }, {
+      "yLevel": -32,
+      "weight": 0.5
+    }, {
+      "yLevel": 0,
+      "weight": 2
+    }
+  ]
+}

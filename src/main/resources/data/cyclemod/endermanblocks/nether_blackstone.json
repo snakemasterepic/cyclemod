@@ -1,0 +1,13 @@
+{
+  "block": "minecraft:blackstone",
+  "dimensions": ["minecraft:the_nether"],
+  "points": [
+    {
+      "yLevel": 5,
+      "weight": 25
+    }, {
+      "yLevel": 31,
+      "weight": 25
+    }
+  ]
+}

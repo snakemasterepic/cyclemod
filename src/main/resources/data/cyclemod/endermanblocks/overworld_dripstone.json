@@ -1,0 +1,14 @@
+{
+  "block": "minecraft:dripstone_block",
+  "dimensions": ["minecraft:overworld"],
+  "biomes": ["minecraft:dripstone_caves"],
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 200
+    }, {
+      "yLevel": 319,
+      "weight": 200
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "block": "minecraft:copper_ore",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 3.75
+    }, {
+      "yLevel": 48,
+      "weight": 10
+    }, {
+      "yLevel": 112,
+      "weight": 0
+    }
+  ]
+}

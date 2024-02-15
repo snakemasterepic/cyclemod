@@ -1,0 +1,14 @@
+{
+  "block": "minecraft:deepslate",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 200
+    }, {
+      "yLevel": 0,
+      "weight": 200
+    }
+  ]
+}

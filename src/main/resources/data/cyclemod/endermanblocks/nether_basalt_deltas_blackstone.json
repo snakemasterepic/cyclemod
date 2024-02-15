@@ -1,0 +1,14 @@
+{
+  "block": "minecraft:blackstone",
+  "dimensions": ["minecraft:the_nether"],
+  "biomes": ["minecraft:basalt_deltas"],
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 100
+    }, {
+      "yLevel": 319,
+      "weight": 100
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "block": "minecraft:nether_gold_ore",
+  "dimensions": ["minecraft:the_nether"],
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 5
+    }, {
+      "yLevel": 127,
+      "weight": 5
+    }
+  ]
+}

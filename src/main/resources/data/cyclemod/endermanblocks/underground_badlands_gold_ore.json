@@ -1,0 +1,28 @@
+{
+  "block": "minecraft:gold_ore",
+  "dimensions": ["minecraft:overworld"],
+  "biomes": [
+    "minecraft:badlnds",
+    "minecraft:wooded_badlands",
+    "minecraft:eroded_badlands"
+  ],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 5
+    }, {
+      "yLevel": 16,
+      "weight": 7
+    }, {
+      "yLevel": 64,
+      "weight": 0
+    }, {
+      "yLevel": 80,
+      "weight": 0
+    }, {
+      "yLevel": 319,
+      "weight": 25
+    }
+  ]
+}

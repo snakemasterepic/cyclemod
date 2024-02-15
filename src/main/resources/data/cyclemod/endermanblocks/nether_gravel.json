@@ -1,0 +1,13 @@
+{
+  "block": "minecraft:gravel",
+  "dimensions": ["minecraft:the_nether"],
+  "points": [
+    {
+      "yLevel": 5,
+      "weight": 25
+    }, {
+      "yLevel": 41,
+      "weight": 25
+    }
+  ]
+}

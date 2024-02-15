@@ -1,0 +1,12 @@
+{
+  "structure": "minecraft:trail_ruins",
+  "lootTables": [
+    {
+      "name": "archaeology/trail_ruins_common",
+      "weight": 11
+    }, {
+      "name": "archaeology/trail_ruins_rare",
+      "weight": 1
+    }
+  ]
+}

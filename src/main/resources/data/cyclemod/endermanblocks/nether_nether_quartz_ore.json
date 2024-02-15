@@ -1,0 +1,13 @@
+{
+  "block": "minecraft:nether_quartz_ore",
+  "dimensions": ["minecraft:the_nether"],
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 10
+    }, {
+      "yLevel": 127,
+      "weight": 10
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "structure": "minecraft:desert_pyramid",
+  "lootTables": [
+    {
+      "name": "chests/desert_pyramid",
+      "weight": 1
+    }
+  ]
+}

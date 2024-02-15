@@ -1,0 +1,13 @@
+{
+  "block": "minecraft:netherrack",
+  "dimensions": ["minecraft:the_nether"],
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 100
+    }, {
+      "yLevel": 319,
+      "weight": 100
+    }
+  ]
+}

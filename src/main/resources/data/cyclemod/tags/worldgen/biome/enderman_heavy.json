@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:warped_forest",
+    "minecraft:the_end",
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "minecraft:end_barrens",
+    "minecraft:small_end_islands"
+  ]
+}

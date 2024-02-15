@@ -1,0 +1,26 @@
+{
+  "block": "minecraft:deepslate_emerald_ore",
+  "dimensions": [],
+  "biomes": [
+    "minecraft:cherry_grove",
+    "minecraft:grove",
+    "minecraft:meadow",
+    "minecraft:snowy_slopes",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_forest"
+  ],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": -16,
+      "weight": 0
+    }, {
+      "yLevel": 0,
+      "weight": 0.12
+    }
+  ]
+}

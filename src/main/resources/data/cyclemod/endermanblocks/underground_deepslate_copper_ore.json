@@ -1,0 +1,14 @@
+{
+  "block": "deepslate_copper_ore",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": -16,
+      "weight": 0
+    }, {
+      "yLevel": 0,
+      "weight": 3.75
+    }
+  ]
+}

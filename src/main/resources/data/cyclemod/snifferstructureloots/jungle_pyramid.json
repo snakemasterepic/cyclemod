@@ -1,0 +1,9 @@
+{
+  "structure": "minecraft:jungle_pyramid",
+  "lootTables": [
+    {
+      "name": "chests/jungle_temple",
+      "weight": 1
+    }
+  ]
+}

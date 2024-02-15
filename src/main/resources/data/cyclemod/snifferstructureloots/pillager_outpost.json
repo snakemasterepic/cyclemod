@@ -1,0 +1,9 @@
+{
+  "structure": "minecraft:pillager_outpost",
+  "lootTables": [
+    {
+      "name": "chests/pillager_outpost",
+      "weight": 1
+    }
+  ]
+}

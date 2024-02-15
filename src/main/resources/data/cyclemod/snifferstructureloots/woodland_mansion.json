@@ -1,0 +1,9 @@
+{
+  "structure": "minecraft:mansion",
+  "lootTables": [
+    {
+      "name": "chests/woodland_mansion",
+      "weight": 1
+    }
+  ]
+}

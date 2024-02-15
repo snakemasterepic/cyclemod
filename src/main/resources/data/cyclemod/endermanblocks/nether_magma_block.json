@@ -1,0 +1,13 @@
+{
+  "block": "minecraft:magma_block",
+  "dimensions": ["minecraft:the_nether"],
+  "points": [
+    {
+      "yLevel": 27,
+      "weight": 25
+    }, {
+      "yLevel": 36,
+      "weight": 25
+    }
+  ]
+}

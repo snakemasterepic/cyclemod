@@ -1,0 +1,14 @@
+{
+  "block": "minecraft:deepslate_iron_ore",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 0
+    }, {
+      "yLevel": 0,
+      "weight": 5
+    }
+  ]
+}

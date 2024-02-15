@@ -1,0 +1,9 @@
+{
+  "structure": "minecraft:ocean_ruin_warm",
+  "lootTables": [
+    {
+      "name": "archaeology/ocean_ruin_warm",
+      "weight": 1
+    }
+  ]
+}

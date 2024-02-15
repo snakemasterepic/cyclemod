@@ -1,0 +1,16 @@
+{
+  "block": "minecraft:deepslate_diamond_ore",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 2
+    }, {
+      "yLevel": 0,
+      "weight": 0.4
+    }
+  ]
+}

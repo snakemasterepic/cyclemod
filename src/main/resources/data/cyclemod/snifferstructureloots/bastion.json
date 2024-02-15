@@ -1,0 +1,18 @@
+{
+  "structure": "minecraft:bastion_remnant",
+  "lootTables": [
+    {
+      "name": "chests/bastion_bridge",
+      "weight": 1
+    }, {
+      "name": "chests/bastion_hoglin_stable",
+      "weight": 1
+    }, {
+      "name": "chests/bastion_other",
+      "weight": 1
+    }, {
+      "name": "chests/bastion_treasure",
+      "weight": 1
+    }
+  ]
+}

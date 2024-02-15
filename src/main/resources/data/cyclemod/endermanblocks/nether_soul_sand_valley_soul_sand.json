@@ -1,0 +1,14 @@
+{
+  "block": "minecraft:soul_sand",
+  "dimensions": ["minecraft:the_nether"],
+  "biomes": ["minecraft:soul_sand_valley"],
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 100
+    }, {
+      "yLevel": 319,
+      "weight": 100
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "block": "minecraft:soul_sand",
+  "dimensions": ["minecraft:the_nether"],
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 25
+    }, {
+      "yLevel": 32,
+      "weight": 25
+    }
+  ]
+}

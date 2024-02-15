@@ -1,0 +1,17 @@
+{
+  "block": "minecraft:lapis_ore",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 2
+    }, {
+      "yLevel": 32,
+      "weight": 0.5
+    }, {
+      "yLevel": 64,
+      "weight": 0.5
+    }
+  ]
+}

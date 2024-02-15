@@ -1,0 +1,12 @@
+{
+  "structure": "minecraft:desert_pyramid",
+  "lootTables": [
+    {
+      "name": "archaeology/desert_pyramid",
+      "weight": 2
+    }, {
+      "name": "archaeology/desert_well",
+      "weight": 1
+    }
+  ]
+}

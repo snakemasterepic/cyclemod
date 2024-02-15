@@ -1,0 +1,22 @@
+{
+  "block": "minecraft:clay",
+  "dimensions": ["minecraft:overworld"],
+  "biomes": [
+    "minecraft:ocean",
+    "minecraft:frozen_ocean",
+    "minecraft:cold_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:river",
+    "minecraft:frozen_river"
+  ],
+  "canSeeSky": true,
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 10
+    }, {
+      "yLevel": 319,
+      "weight": 10
+    }
+  ]
+}

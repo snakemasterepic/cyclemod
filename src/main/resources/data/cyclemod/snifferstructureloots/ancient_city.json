@@ -1,0 +1,12 @@
+{
+  "structure": "minecraft:ancient_city",
+  "lootTables": [
+    {
+      "name": "chests/ancient_city",
+      "weight": 9
+    }, {
+      "name": "chests/ancient_city_ice_box",
+      "weight": 1
+    }
+  ]
+}

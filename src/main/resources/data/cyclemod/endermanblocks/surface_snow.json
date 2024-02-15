@@ -1,0 +1,27 @@
+{
+  "block": "minecraft:snow_block",
+  "dimensions": ["minecraft:overworld"],
+  "biomes": [
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:grove",
+    "minecraft:snowy_slopes",
+    "minecraft:snowy_taiga",
+    "minecraft:frozen_river",
+    "minecraft:snowy_beach",
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes"
+  ],
+  "canSeeSky": true,
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 100
+    }, {
+      "yLevel": 319,
+      "weight": 100
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "block": "minecraft:deepslate_gold_ore",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 0
+    }, {
+      "yLevel": -16,
+      "weight": 2
+    }, {
+      "yLevel": 0,
+      "weight": 1.4
+    }
+  ]
+}

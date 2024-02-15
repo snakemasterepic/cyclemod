@@ -1,0 +1,9 @@
+{
+  "structure": "minecraft:fortress",
+  "lootTables": [
+    {
+      "name": "chests/nether_bridge",
+      "weight": 1
+    }
+  ]
+}

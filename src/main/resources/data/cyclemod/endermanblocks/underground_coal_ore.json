@@ -1,0 +1,17 @@
+{
+  "block": "minecraft:coal_ore",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 0.4
+    }, {
+      "yLevel": 128,
+      "weight": 20
+    }, {
+      "yLevel": 319,
+      "weight": 20
+    }
+  ]
+}

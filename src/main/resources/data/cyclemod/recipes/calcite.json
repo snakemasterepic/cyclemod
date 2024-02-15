@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N",
+        "N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "N": {
+            "item": "minecraft:nautilus_shell"
+        }
+    },
+    "result": {
+        "item": "minecraft:calcite",
+        "count": 4
+    }
+}

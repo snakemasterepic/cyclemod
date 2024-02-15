@@ -1,0 +1,12 @@
+{
+  "structure": "minecraft:end_city",
+  "lootTables": [
+    {
+      "name": "cyclemod:end_city_elytra",
+      "weight": 1
+    }, {
+      "name": "chests/end_city_treasure",
+      "weight": 15
+    }
+  ]
+}

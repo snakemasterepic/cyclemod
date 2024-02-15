@@ -1,0 +1,14 @@
+{
+  "block": "minecraft:redstone_ore",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": 0,
+      "weight": 1.25
+    }, {
+      "yLevel": 16,
+      "weight": 1.25
+    }
+  ]
+}

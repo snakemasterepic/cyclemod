@@ -1,0 +1,15 @@
+{
+  "structure": "minecraft:stronghold",
+  "lootTables": [
+    {
+      "name": "chests/stronghold_corridor",
+      "weight": 3
+    }, {
+      "name": "chests/stronghold_crossing",
+      "weight": 2
+    }, {
+      "name": "chests/stronghold_library",
+      "weight": 1
+    }
+  ]
+}

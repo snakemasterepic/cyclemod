@@ -1,0 +1,16 @@
+{
+  "block": "minecraft:ancient_debris",
+  "dimensions": ["minecraft:the_nether"],
+  "points": [
+    {
+      "yLevel": 8,
+      "weight": 0
+    }, {
+      "yLevel": 16,
+      "weight": 2
+    }, {
+      "yLevel": 24,
+      "weight": 0
+    }
+  ]
+}

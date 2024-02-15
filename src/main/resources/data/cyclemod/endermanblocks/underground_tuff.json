@@ -1,0 +1,14 @@
+{
+  "block": "minecraft:tuff",
+  "dimensions": ["minecraft:overworld"],
+  "canSeeSky": false,
+  "points": [
+    {
+      "yLevel": -64,
+      "weight": 25
+    }, {
+      "yLevel": 0,
+      "weight": 25
+    }
+  ]
+}
