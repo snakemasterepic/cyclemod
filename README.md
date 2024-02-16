@@ -1,28 +1,31 @@
+Cycle
+==
+Cycle is a mod that is about making every resource in vanilla Minecraft renewable while blending into vanilla gameplay.
 
-Installation information
-=======
-
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-> **Note**: For Eclipse, use tasks in `Launch Group` instead of ones founds in `Java Application`. A preparation task must run before launching the game. NeoGradle uses launch groups to do these subsequently.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+| Resource | Renewal Method |
+| -- | -- |
+| Ancient Debris | Enderman can spawn with it in the nether. |
+| Banner Pattern (Snout) | Sniffers sniffing treasure (bastion). |
+| Calcite | Can be crafted (crafted the same as diorite but with nautilus shells instead of quartz and gives 4 instead of 2 per craft) |
+| Cobweb | Cave spiders can make cobwebs as they wander about. |
+| Dead Bush | Can be obtained by bone mealing sand. |
+| Deepslate, Cobbled Deepslate | Stone and cobblestone generators produce deepslate and cobbled deepslate respectively in the deep dark. |
+| Disc Fragment | Sniffers sniffing treasure (ancient city). |
+| Dragon Egg | The one resource this mod doesn't touch.  The fact that there is only one in an entire vanilla world means that it is meant to be a special trophy.  Therefore, I left just the one dragon egg.  If you want more, there are plenty of other mods that make dragon eggs renewable. |
+| Dragon Head | Drops when the ender dragon is killed by a charged creeper. |
+| Echo Shard | Sniffers sniffing treasure (ancient city). |
+| Elytra | Sniffers sniffing treasure (end city). |
+| Enchanted Book (Swift Sneak) | Sniffers sniffing treasure (ancient city). |
+| Enchanted Golden Apple | Sniffers sniffing treasure. |
+| Gilded Blackstone | Sniffers sniffing treasure (bastion). |
+| Heart of the Sea | Elder guardians drop them when killed by magic (such as harming potions or conduit). |
+| Horse Armor (Iron, Gold, Diamond) | Sniffers sniffing treasure. |
+| Music Disc (Otherside) | Sniffers sniffing treasure. |
+| Music Disc (Pigstep) | Sniffers sniffing treasure. |
+| Music Disc (Relic) | Sniffers finding suspicious sand/gravel (trail ruins). |
+| Ores | Enderman sometimes spawn with ores them. |
+| Pottery Shards | Sniffers finding suspicious sand/gravel. |
+| Sand | (Already renewable in vanilla via wandering traders) Can now be obtained by smelting dirt. |
+| Spore Blossom | Wandering traders sometimes sell them. |
+| Tuff | Same rules as basalt generators but with soul sand instead of soul soil. |
+| Wet Sponge | Guardians struck by lightning turn into elder guardians. |
