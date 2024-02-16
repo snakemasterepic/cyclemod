@@ -25,3 +25,6 @@ Describe what should happen when you perform the steps above.
 # Notes
 - Any additional notes you wish to include.
 - This part is mostly optional.
+# Attachments
+- Attach files that can help us debug and fix this issue.
+- Screenshots, logs, crash reports, world files, ect.
