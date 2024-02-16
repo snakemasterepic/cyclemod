@@ -45,8 +45,8 @@ public class BoneMealSand
                     world.setBlockAndUpdate(targetPos.above(), Blocks.DEAD_BUSH.defaultBlockState());
                 }
             }
+            
+            event.setResult(Result.ALLOW);
         }
-        
-        event.setResult(Result.ALLOW);
     }
 }
