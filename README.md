@@ -18,7 +18,7 @@ Cycle is a mod that is about making every resource in vanilla Minecraft renewabl
 | Enchanted Book (Swift Sneak) | Sniffers sniffing treasure (ancient city). |
 | Enchanted Golden Apple | Sniffers sniffing treasure. |
 | Gilded Blackstone | Sniffers sniffing treasure (bastion). |
-| Heart of the Sea | Elder guardians drop them when killed by magic (such as harming potions or conduit). |
+| Heart of the Sea | Elder guardians drop them when killed by magic (such as from a conduit). |
 | Horse Armor (Iron, Gold, Diamond) | Sniffers sniffing treasure. |
 | Music Disc (Otherside) | Sniffers sniffing treasure. |
 | Music Disc (Pigstep) | Sniffers sniffing treasure. |
