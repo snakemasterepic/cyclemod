@@ -41,7 +41,7 @@ public abstract class CaveSpiderMixin extends Spider
         @Override
         public boolean canUse()
         {
-            return !caveSpider.isAggressive();
+            return caveSpider.getTarget() == null;
         }
 
         @Override
