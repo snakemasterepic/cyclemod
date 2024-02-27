@@ -11,10 +11,6 @@ import com.snakemasterepic.cyclemod.data.snifferloot.SnifferLoots;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.animal.sniffer.Sniffer;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.entity.BlockEntityType;
-import net.minecraft.world.level.storage.loot.BuiltInLootTables;
 import net.minecraft.world.phys.Vec3;
 
 @Mixin(targets="net.minecraft.world.entity.animal.sniffer.SnifferAi$Scenting")

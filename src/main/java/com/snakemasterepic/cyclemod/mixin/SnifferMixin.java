@@ -1,9 +1,5 @@
 package com.snakemasterepic.cyclemod.mixin;
 
-import com.snakemasterepic.cyclemod.Config;
-import com.snakemasterepic.cyclemod.data.snifferloot.SnifferLoots;
-
-import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -14,6 +10,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+import com.snakemasterepic.cyclemod.Config;
+import com.snakemasterepic.cyclemod.data.snifferloot.SnifferLoots;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.GlobalPos;
 import net.minecraft.network.syncher.EntityDataAccessor;
@@ -22,17 +21,8 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.animal.sniffer.Sniffer;
-import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.StructureManager;
-import net.minecraft.world.level.levelgen.structure.BuiltinStructures;
 import net.minecraft.world.level.pathfinder.Path;
-import net.minecraft.world.level.storage.loot.BuiltInLootTables;
-import net.minecraft.world.level.storage.loot.LootParams;
-import net.minecraft.world.level.storage.loot.LootTable;
-import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
-import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraft.world.phys.Vec3;
 
 @Mixin(Sniffer.class)

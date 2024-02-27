@@ -4,10 +4,10 @@ import com.snakemasterepic.cyclemod.Config;
 
 import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.block.Blocks;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.common.Mod.EventBusSubscriber.Bus;
-import net.neoforged.neoforge.event.level.BlockEvent.FluidPlaceBlockEvent;
+import net.minecraftforge.event.level.BlockEvent.FluidPlaceBlockEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 @Mod.EventBusSubscriber(modid = "cyclemod", bus = Bus.FORGE)
 public class DeepslateGenerator

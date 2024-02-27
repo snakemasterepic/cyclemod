@@ -8,18 +8,18 @@ import com.snakemasterepic.cyclemod.data.snifferloot.SnifferLoots;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.ModLoadingContext;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.config.ModConfig;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.common.NeoForgeMod;
-import net.neoforged.neoforge.event.AddReloadListenerEvent;
-import net.neoforged.neoforge.fluids.FluidInteractionRegistry;
-import net.neoforged.neoforge.fluids.FluidInteractionRegistry.InteractionInformation;
-import net.neoforged.neoforge.registries.RegisterEvent;
+import net.minecraftforge.common.ForgeMod;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.AddReloadListenerEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fluids.FluidInteractionRegistry;
+import net.minecraftforge.fluids.FluidInteractionRegistry.InteractionInformation;
+import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(CycleMod.MODID)
@@ -32,13 +32,9 @@ public class CycleMod
 
     public static final ResourceLocation ENDERMAN_BLOCK_LOCATION = new ResourceLocation(MODID, "endermanblocks");
 
-    // The constructor for the mod class is the first code that is run when your mod
-    // is loaded.
-    // FML will recognize some parameter types like IEventBus or ModContainer and
-    // pass them in automatically.
-    public CycleMod(IEventBus modEventBus)
+    public CycleMod()
     {
-        // Register the commonSetup method for modloading
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in.
@@ -46,7 +42,7 @@ public class CycleMod
         // to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in
         // this class, like onServerStarting() below.
-        NeoForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(this);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config
         // file for us
@@ -67,7 +63,7 @@ public class CycleMod
         
         FluidInteractionRegistry
                 .addInteraction(
-                        NeoForgeMod.LAVA_TYPE.value(),
+                        ForgeMod.LAVA_TYPE.get(),
                         new InteractionInformation(
                                 (level, currentPos, relativePos, currentState) -> Config.TUFF_GENERATOR
                                         && level.getBlockState(currentPos.below()).is(Blocks.SOUL_SAND)

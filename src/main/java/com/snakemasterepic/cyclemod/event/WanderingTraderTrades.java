@@ -7,11 +7,11 @@ import com.snakemasterepic.cyclemod.Config;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.common.Mod.EventBusSubscriber.Bus;
-import net.neoforged.neoforge.common.BasicItemListing;
-import net.neoforged.neoforge.event.village.WandererTradesEvent;
+import net.minecraftforge.common.BasicItemListing;
+import net.minecraftforge.event.village.WandererTradesEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 @Mod.EventBusSubscriber(modid = "cyclemod", bus = Bus.FORGE)
 public class WanderingTraderTrades

@@ -1,67 +1,67 @@
 package com.snakemasterepic.cyclemod;
 
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.event.config.ModConfigEvent;
-import net.neoforged.neoforge.common.ModConfigSpec;
+import net.minecraftforge.common.ForgeConfigSpec;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.config.ModConfigEvent;
 
 @Mod.EventBusSubscriber(modid = CycleMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Config
 {
-    private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
+    private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
 
-    private static final ModConfigSpec.BooleanValue _ENDERMAN_SPAWN_WITH_BLOCK = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _ENDERMAN_SPAWN_WITH_BLOCK = BUILDER
             .comment("Whether to allow endermen to spawn with a block").define("endermanSpawnWithBlock", true);
 
-    private static final ModConfigSpec.DoubleValue _ENDERMAN_SPAWN_WITH_BLOCK_CHANCE = BUILDER
+    private static final ForgeConfigSpec.DoubleValue _ENDERMAN_SPAWN_WITH_BLOCK_CHANCE = BUILDER
             .comment("The probability of a spawned enderman having a block")
             .defineInRange("endermanSpawnWithBlockChance", 0.25, 0, 1);
 
-    private static final ModConfigSpec.DoubleValue _ENDERMAN_SPAWN_WITH_BLOCK_CHANCE_ENDERMAN_HEAVY_BIOMES = BUILDER
+    private static final ForgeConfigSpec.DoubleValue _ENDERMAN_SPAWN_WITH_BLOCK_CHANCE_ENDERMAN_HEAVY_BIOMES = BUILDER
             .comment("The probability of a spawned enderman having a block in an enderman-heavy biome")
             .defineInRange("endermanSpawnWithBlockChanceEndermanHeavyBiome", 0.02, 0, 1);
     
-    private static final ModConfigSpec.BooleanValue _ENDER_DRAGON_DROPS_HEAD = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _ENDER_DRAGON_DROPS_HEAD = BUILDER
             .comment("Whether the ender dragon drops its head if killed by a charged creeper")
             .define("enderDragonDropsHead", true);
     
-    private static final ModConfigSpec.BooleanValue _BONE_MEAL_SAND = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _BONE_MEAL_SAND = BUILDER
             .comment("Whether bone mean can be used on sand to get dead bushes")
             .define("boneMealSand", true);
 
-    private static final ModConfigSpec.BooleanValue _CAVE_SPIDERS_MAKE_COBWEBS = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _CAVE_SPIDERS_MAKE_COBWEBS = BUILDER
             .comment("Whether cave spiders produce cobwebs")
             .define("caveSpidersMakeCobwebs", true);
     
-    private static final ModConfigSpec.BooleanValue _GUARDIAN_TO_ELDER_GUARDIAN_CONVERSION = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _GUARDIAN_TO_ELDER_GUARDIAN_CONVERSION = BUILDER
             .comment("Whether guardians turn into elder guardians when struck by lightning.")
             .define("guardianToElderGuardianConversion", true);
     
-    private static final ModConfigSpec.BooleanValue _SNIFFER_LOOT = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _SNIFFER_LOOT = BUILDER
             .comment("Whether sniffers sniff loot out of structures")
             .define("snifferLoot", true);
     
-    private static final ModConfigSpec.BooleanValue _SNIFFER_ARCHAEOLOGY = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _SNIFFER_ARCHAEOLOGY = BUILDER
             .comment("Wehether sniffers sniff out more suspicious sand/gravel")
             .define("snifferArchaeology", true);
     
-    private static final ModConfigSpec.BooleanValue _DEEPSLATE_GENERATOR = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _DEEPSLATE_GENERATOR = BUILDER
             .comment("Whether (cobbled) deepslate generators exist (Same as (cobble)stone generators but in the deep dark.)")
             .define("deepslateGenerator", true);
     
-    private static final ModConfigSpec.BooleanValue _TUFF_GENERATOR = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _TUFF_GENERATOR = BUILDER
             .comment("Whether tuff generatrs from flowing lava next to blue ice and on top of soul sand.")
             .define("tuffGenerator", true);
     
-    private static final ModConfigSpec.BooleanValue _TRADE_SPORE_BLOSSOM = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _TRADE_SPORE_BLOSSOM = BUILDER
             .comment("Whether the wandering trader sells spore blossoms")
             .define("tradeSporeBlossoms", true);
     
-    private static final ModConfigSpec.BooleanValue _ELDER_GUARDIAN_DROPS_HOTS = BUILDER
+    private static final ForgeConfigSpec.BooleanValue _ELDER_GUARDIAN_DROPS_HOTS = BUILDER
             .comment("Whether elder guardians drop heart of the sea when killed by magic")
             .define("elderGuardianDropsHOTS", true);
     
-    static final ModConfigSpec SPEC = BUILDER.build();
+    static final ForgeConfigSpec SPEC = BUILDER.build();
     
     public static boolean ENDERMAN_SPAWN_WITH_BLOCK;
     public static double ENDERMAN_SPAWN_WITH_BLOCK_CHANCE;

@@ -2,6 +2,7 @@
   "required": true,
   "package": "com.snakemasterepic.cyclemod.mixin",
   "compatibilityLevel": "JAVA_17",
+  "refmap": "cyclemod.refmap.json",
   "mixins": [
     "CaveSpiderMixin",
     "EndermanMixin",
