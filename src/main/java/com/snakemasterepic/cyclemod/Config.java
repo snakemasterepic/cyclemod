@@ -45,6 +45,10 @@ public class Config
             .comment("Wehether sniffers sniff out more suspicious sand/gravel")
             .define("snifferArchaeology", true);
     
+    private static final ModConfigSpec.DoubleValue _SNIFFER_ARCHAEOLOGY_SPEED = BUILDER
+            .comment("How fast sniffers sniff out more suspicious sand/gravel")
+            .defineInRange("snifferArchaeologySpeed", 0.1, 0, 1);
+    
     private static final ModConfigSpec.BooleanValue _DEEPSLATE_GENERATOR = BUILDER
             .comment("Whether (cobbled) deepslate generators exist (Same as (cobble)stone generators but in the deep dark.)")
             .define("deepslateGenerator", true);
@@ -72,6 +76,7 @@ public class Config
     public static boolean GUARDIAN_TO_ELDER_GUARDIAN_CONVERSION;
     public static boolean SNIFFER_LOOT;
     public static boolean SNIFFER_ARCHAEOLOGY;
+    public static double SNIFFER_ARCHAEOLOGY_SPEED;
     public static boolean DEEPSLATE_GENERATOR;
     public static boolean TUFF_GENERATOR;
     public static boolean TRADE_SPORE_BLOSSOM;
@@ -89,6 +94,7 @@ public class Config
         GUARDIAN_TO_ELDER_GUARDIAN_CONVERSION = _GUARDIAN_TO_ELDER_GUARDIAN_CONVERSION.get();
         SNIFFER_LOOT = _SNIFFER_LOOT.get();
         SNIFFER_ARCHAEOLOGY = _SNIFFER_ARCHAEOLOGY.get();
+        SNIFFER_ARCHAEOLOGY_SPEED = _SNIFFER_ARCHAEOLOGY_SPEED.get();
         DEEPSLATE_GENERATOR = _DEEPSLATE_GENERATOR.get();
         TUFF_GENERATOR = _TUFF_GENERATOR.get();
         TRADE_SPORE_BLOSSOM = _TRADE_SPORE_BLOSSOM.get();

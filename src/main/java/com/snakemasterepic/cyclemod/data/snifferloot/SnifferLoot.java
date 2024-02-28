@@ -130,10 +130,6 @@ public class SnifferLoot
                 return;
             }
             
-            if (world.getRandom().nextInt(10) != 0) {
-                return;
-            }
-
             if (headBlock == Blocks.SAND) {
                 world.setBlockAndUpdate(headPos, Blocks.SUSPICIOUS_SAND.defaultBlockState());
             } else if (headBlock == Blocks.GRAVEL) {
