@@ -11,13 +11,11 @@ import com.mojang.serialization.JsonOps;
 import com.snakemasterepic.cyclemod.CycleMod;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener;
 import net.minecraft.util.profiling.ProfilerFiller;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.block.Block;
 
 public class HeightCurves extends SimpleJsonResourceReloadListener

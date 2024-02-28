@@ -19,7 +19,6 @@ import net.neoforged.neoforge.common.NeoForgeMod;
 import net.neoforged.neoforge.event.AddReloadListenerEvent;
 import net.neoforged.neoforge.fluids.FluidInteractionRegistry;
 import net.neoforged.neoforge.fluids.FluidInteractionRegistry.InteractionInformation;
-import net.neoforged.neoforge.registries.RegisterEvent;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(CycleMod.MODID)
