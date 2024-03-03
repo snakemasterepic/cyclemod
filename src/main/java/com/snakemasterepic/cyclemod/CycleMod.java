@@ -62,7 +62,7 @@ public class CycleMod
         if (Config.TUFF_GENERATOR) {
             FluidInteractionRegistry
                     .addInteraction(
-                            NeoForgeMod.LAVA_TYPE.value(),
+                            ForgeMod.LAVA_TYPE.get(),
                             new InteractionInformation(
                                     (level, currentPos, relativePos, currentState) -> level
                                             .getBlockState(currentPos.below())

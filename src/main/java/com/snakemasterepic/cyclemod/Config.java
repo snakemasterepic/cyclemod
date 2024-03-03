@@ -44,7 +44,11 @@ public class Config
     private static final ForgeConfigSpec.BooleanValue _SNIFFER_ARCHAEOLOGY = BUILDER
             .comment("Wehether sniffers sniff out more suspicious sand/gravel")
             .define("snifferArchaeology", true);
-
+    
+    private static final ForgeConfigSpec.DoubleValue _SNIFFER_ARCHAEOLOGY_SPEED = BUILDER
+            .comment("How fast sniffers sniff out more suspicious sand/gravel")
+            .defineInRange("snifferArchaeologySpeed", 0.1, 0, 1);
+    
     private static final ForgeConfigSpec.BooleanValue _DEEPSLATE_GENERATOR = BUILDER
             .comment("Whether (cobbled) deepslate generators exist (Same as (cobble)stone generators but in the deep dark.)")
             .define("deepslateGenerator", true);
