@@ -47,7 +47,6 @@ public class CycleMod
         // Register our mod's ModConfigSpec so that FML can create and load the config
         // file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -60,14 +59,16 @@ public class CycleMod
         event.addListener(HeightCurves.CURVES);
         event.addListener(SnifferLoots.STRUCTURE_LOOTS);
         event.addListener(SnifferLoots.ARCHAEOLOGY_LOOTS);
-        
-        FluidInteractionRegistry
-                .addInteraction(
-                        ForgeMod.LAVA_TYPE.get(),
-                        new InteractionInformation(
-                                (level, currentPos, relativePos, currentState) -> Config.TUFF_GENERATOR
-                                        && level.getBlockState(currentPos.below()).is(Blocks.SOUL_SAND)
-                                        && level.getBlockState(relativePos).is(Blocks.BLUE_ICE),
-                                Blocks.TUFF.defaultBlockState()));
+        if (Config.TUFF_GENERATOR) {
+            FluidInteractionRegistry
+                    .addInteraction(
+                            NeoForgeMod.LAVA_TYPE.value(),
+                            new InteractionInformation(
+                                    (level, currentPos, relativePos, currentState) -> level
+                                            .getBlockState(currentPos.below())
+                                            .is(Blocks.SOUL_SAND)
+                                            && level.getBlockState(relativePos).is(Blocks.BLUE_ICE),
+                                    Blocks.TUFF.defaultBlockState()));
+        }
     }
 }

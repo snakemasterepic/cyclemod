@@ -2,8 +2,6 @@ package com.snakemasterepic.cyclemod.event;
 
 import com.snakemasterepic.cyclemod.Config;
 
-import net.minecraft.core.BlockPos;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.monster.ElderGuardian;

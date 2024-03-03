@@ -33,7 +33,7 @@ public class BoneMealSand
             RandomSource rng = world.getRandom();
             BlockPos eventPos = event.getPos();
             
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 5; i++) {
                 int x = rollRandom(rng) + rollRandom(rng) + rollRandom(rng);
                 int y = (rollRandom(rng) + rollRandom(rng)) / 2;
                 int z = rollRandom(rng) + rollRandom(rng) + rollRandom(rng);
